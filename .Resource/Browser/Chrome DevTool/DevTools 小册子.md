@@ -146,3 +146,15 @@ source面板中的snippet可以存储进场使用的一些js脚本，就不用�
 + Network面板的请求的initiator 面板可以查看请求的function call，以此查看调用栈由哪些代码发起。
 	+ 这个是在看公司合规考试怎么直接完成进度的时候用到的，找到相关的api文件之后 直接发给ai 问答案就好了 嘻嘻
 
+	2025年06月16日21:36:07
++ Network面板 [原文链接](https://mp.weixin.qq.com/s/X4dQ4NqDF3UmNCZ4nqDX_A?poc_token=HAH-T2ijqz-lJoMfbg6dOQApr4LW1GaLtIBQSZhh)
+![](https://mmbiz.qpic.cn/mmbiz_png/Tmczbd3NL03Nrr2xwNL7NagpmUwe8Qs1ibicfU8cDBuyMEvIrAqdv0pPp4ibm4YXgQcuwQhibDOIKtBZPanRtU55GQ/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1)
+Filters 控制的展示：
+> Controls行的最后的配置 小齿轮图标可以展开很多配置
+
+使用大请求行 - 默认情况下，Requests Table一个资源只显示很小的一行。选中Use large resource rows(使用大资源行)按钮可以显示两个文本字段：主要字段和次要字段。
+捕获屏幕截图 - 将鼠标悬停在某个屏幕截图上的时候，Timeline/Waterfall(时间轴)会显示一条垂直的黄线，指示该帧是何时被捕获的
+显示概述 - 展示页面整个生命周期的各个阶段（Overview 区域）的耗时（蓝色绿色的那些横杠）
+![](https://mmbiz.qpic.cn/mmbiz_png/Tmczbd3NL03Nrr2xwNL7NagpmUwe8Qs1FWbiasDbicUvgWI6PloqeBpNeFgJ40aUzKunvp4EPbEuIzOGeIia8NDiaw/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1)
+Requests Table 区域:
+可以右键列名 调整column展示的信息
