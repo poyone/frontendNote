@@ -48,7 +48,8 @@ app.listen(3000, () => {
 ```
 + `'Content-Type': 'text/event-stream'`通过content type来设置请求类型为sse
 + "res.write(`event:lol\n`)" `event: eventType`来标注事件类型
-	+ 因为前端默认是接收`messgae`类型，所以一般使用"res.write(`data:lol\n`)" 用data来标注
+	+ 因为前端默认是接收`messgae`类型，所以一般使用"res.write(`data:your_message\n`)" 来直接发送数据
+	+ 自定义事件要写两回，使用`event: <event_name>`指定自定义事件的名称，然后通过`data: <data>`发送事件数据
 
 ## 前端
 
